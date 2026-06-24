@@ -3,69 +3,384 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Sourabh Chauhan | Portfolio</title>
+
+  <title>Sourabh Chauhan | Python Developer Portfolio</title>
+
+  <meta name="description" content="Portfolio of Sourabh Chauhan - Python Developer, Automation Engineer, Cloud & DevOps Engineer." />
+
   <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
-  <header>
-    <h1>Sourabh Chauhan</h1>
-    <p>Python Developer | Automation Engineer | Cloud & DevOps</p>
-    <a href="Sourabh_Chauhan_Resume.pdf" target="_blank">Download Resume</a>
+  <div class="background-glow"></div>
+
+  <nav class="navbar">
+    <div class="logo">SC</div>
+
+    <div class="nav-links">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#experience">Experience</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+
+  <header class="hero">
+    <div class="hero-content fade-up">
+      <p class="eyebrow">Software Engineer • Python • Automation • Cloud</p>
+
+      <h1>
+        Hi, I’m <span>Sourabh Chauhan</span>
+      </h1>
+
+      <h2>Python Developer & Automation Engineer</h2>
+
+      <p class="hero-text">
+        I build automation platforms, backend systems, infrastructure tools, and cloud-based solutions
+        using Python, FastAPI, AWS, Docker, Kubernetes, Ansible, and CI/CD pipelines.
+      </p>
+
+      <div class="hero-buttons">
+        <a href="Sourabh_Chauhan_Resume.pdf" target="_blank" class="btn primary">
+          Download Resume
+        </a>
+
+        <a href="#projects" class="btn secondary">
+          View Projects
+        </a>
+      </div>
+    </div>
+
+    <div class="hero-card fade-up delay">
+      <div class="profile-circle">SC</div>
+      <h3>Sourabh Chauhan</h3>
+      <p>Python Developer</p>
+
+      <div class="card-tags">
+        <span>FastAPI</span>
+        <span>AWS</span>
+        <span>DevOps</span>
+        <span>Automation</span>
+      </div>
+    </div>
   </header>
 
-  <section>
-    <h2>About Me</h2>
-    <p>
-      I am a software and automation engineer with experience in Python, FastAPI,
-      cloud automation, infrastructure operations, CI/CD, Docker, Kubernetes,
-      and enterprise automation.
-    </p>
-  </section>
+  <main>
+    <section class="stats section reveal">
+      <div class="stat-card">
+        <h3>8,000+</h3>
+        <p>Monthly IT queries automated</p>
+      </div>
 
-  <section>
-    <h2>Skills</h2>
-    <p>
-      Python, FastAPI, Flask, REST APIs, AWS, Docker, Kubernetes, Terraform,
-      Ansible, Linux, CI/CD, GitHub Actions, ServiceNow, SQL, MongoDB
-    </p>
-  </section>
+      <div class="stat-card">
+        <h3>70%</h3>
+        <p>Manual intervention reduced</p>
+      </div>
 
-  <section>
-    <h2>Projects</h2>
+      <div class="stat-card">
+        <h3>95%</h3>
+        <p>Manual server checks reduced</p>
+      </div>
 
-    <h3>Incident Automation System</h3>
-    <p>
-      Built a Python-based automation system to classify and resolve IT incidents,
-      reducing manual work and improving response time.
-    </p>
+      <div class="stat-card">
+        <h3>2 Days → 30 Min</h3>
+        <p>VM provisioning improvement</p>
+      </div>
+    </section>
 
-    <h3>VMware vSphere Automation</h3>
-    <p>
-      Automated VM provisioning and configuration using Python and pyVmomi,
-      reducing provisioning time from days to minutes.
-    </p>
+    <section id="about" class="section reveal">
+      <div class="section-title">
+        <p>About Me</p>
+        <h2>Building reliable backend and automation systems</h2>
+      </div>
 
-    <h3>Server Health Automation</h3>
-    <p>
-      Created automation scripts for Linux server health checks, patch validation,
-      dependency checks, and operational reporting.
-    </p>
-  </section>
+      <div class="about-grid">
+        <div class="about-text">
+          <p>
+            I am a Software and Automation Engineer with hands-on experience in Python development,
+            backend APIs, infrastructure automation, cloud operations, and DevOps practices.
+          </p>
 
-  <section>
-    <h2>Experience</h2>
-    <h3>Systems Engineer - Tata Consultancy Services</h3>
-    <p>
-      Worked on Python automation, infrastructure support, CI/CD pipelines,
-      server monitoring, ServiceNow integration, and cloud operations.
-    </p>
-  </section>
+          <p>
+            My work focuses on reducing manual effort, improving system reliability, automating
+            repetitive infrastructure tasks, and building scalable tools that support enterprise teams.
+          </p>
 
-  <section>
-    <h2>Contact</h2>
-    <p>Email: sourabhchauhan2810@gmail.com</p>
-    <p>LinkedIn: http://linkedin.com/in/sourabhchauhan28</p>
-    <p>GitHub: https://github.com/sourabh7838</p>
-  </section>
+          <p>
+            I have worked with Python, FastAPI, Flask, ServiceNow integrations, Linux systems,
+            VMware automation, AWS cloud services, Docker, Kubernetes, Terraform, Ansible, and CI/CD pipelines.
+          </p>
+        </div>
+
+        <div class="about-box">
+          <h3>What I Do</h3>
+
+          <ul>
+            <li>Build REST APIs and backend services using Python and FastAPI</li>
+            <li>Automate infrastructure operations using Python, Bash, and Ansible</li>
+            <li>Create CI/CD pipelines for build, test, and deployment workflows</li>
+            <li>Support Linux, cloud, VMware, and enterprise infrastructure systems</li>
+            <li>Develop automation solutions for incident management and system monitoring</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section reveal">
+      <div class="section-title">
+        <p>Technical Skills</p>
+        <h2>Technologies I work with</h2>
+      </div>
+
+      <div class="skills-grid">
+        <div class="skill-card">
+          <h3>Backend Development</h3>
+          <div class="skill-tags">
+            <span>Python</span>
+            <span>FastAPI</span>
+            <span>Flask</span>
+            <span>REST APIs</span>
+            <span>Microservices</span>
+            <span>Pydantic</span>
+          </div>
+        </div>
+
+        <div class="skill-card">
+          <h3>Cloud & DevOps</h3>
+          <div class="skill-tags">
+            <span>AWS</span>
+            <span>Docker</span>
+            <span>Kubernetes</span>
+            <span>Terraform</span>
+            <span>Ansible</span>
+            <span>CI/CD</span>
+          </div>
+        </div>
+
+        <div class="skill-card">
+          <h3>Infrastructure</h3>
+          <div class="skill-tags">
+            <span>Linux</span>
+            <span>VMware</span>
+            <span>vSphere</span>
+            <span>SCCM</span>
+            <span>ServiceNow</span>
+            <span>Bash</span>
+          </div>
+        </div>
+
+        <div class="skill-card">
+          <h3>Databases & Tools</h3>
+          <div class="skill-tags">
+            <span>SQL</span>
+            <span>MongoDB</span>
+            <span>Git</span>
+            <span>GitHub Actions</span>
+            <span>Jira</span>
+            <span>Agile</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section reveal">
+      <div class="section-title">
+        <p>Projects</p>
+        <h2>Featured work</h2>
+      </div>
+
+      <div class="projects-grid">
+        <article class="project-card">
+          <div class="project-icon">⚙️</div>
+          <h3>Incident Automation System</h3>
+          <p>
+            Built a Python-based automation system to classify, prioritize, and support resolution
+            of IT incidents using rule-based workflows and machine learning models.
+          </p>
+
+          <div class="project-tech">
+            <span>Python</span>
+            <span>Flask</span>
+            <span>ServiceNow</span>
+            <span>ML</span>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-icon">☁️</div>
+          <h3>VMware vSphere Automation</h3>
+          <p>
+            Automated VM provisioning, configuration, and OS hardening using Python and pyVmomi,
+            reducing provisioning time from days to less than 30 minutes.
+          </p>
+
+          <div class="project-tech">
+            <span>Python</span>
+            <span>pyVmomi</span>
+            <span>VMware</span>
+            <span>Automation</span>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-icon">🖥️</div>
+          <h3>Server Health Automation</h3>
+          <p>
+            Created automation scripts for Linux server health checks, dependency validation,
+            patch compliance checks, and operational reporting.
+          </p>
+
+          <div class="project-tech">
+            <span>Python</span>
+            <span>Linux</span>
+            <span>Ansible</span>
+            <span>Bash</span>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-icon">🚀</div>
+          <h3>CI/CD Deployment Pipeline</h3>
+          <p>
+            Designed automated build, test, and deployment workflows to improve release reliability,
+            reduce manual deployment steps, and support faster delivery.
+          </p>
+
+          <div class="project-tech">
+            <span>GitHub Actions</span>
+            <span>Docker</span>
+            <span>CI/CD</span>
+            <span>DevOps</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="experience" class="section reveal">
+      <div class="section-title">
+        <p>Experience</p>
+        <h2>Professional background</h2>
+      </div>
+
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+
+          <div class="timeline-content">
+            <h3>Systems Engineer</h3>
+            <p class="company">Tata Consultancy Services</p>
+            <p class="date">Apr 2023 – Sep 2024</p>
+
+            <ul>
+              <li>Built automation solutions using Python for infrastructure operations and incident management.</li>
+              <li>Automated VM provisioning and server health checks to reduce manual operational effort.</li>
+              <li>Worked with Linux, VMware, ServiceNow, CI/CD pipelines, and enterprise infrastructure teams.</li>
+              <li>Collaborated with cross-functional teams to improve reliability, deployment quality, and system performance.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+
+          <div class="timeline-content">
+            <h3>Assistant Systems Engineer</h3>
+            <p class="company">Tata Consultancy Services</p>
+            <p class="date">Feb 2022 – Mar 2023</p>
+
+            <ul>
+              <li>Developed Python scripts and automation tools for incident classification and system support.</li>
+              <li>Supported backend automation workflows, ServiceNow integrations, and operational reporting.</li>
+              <li>Improved response time and reduced repetitive manual tasks through automation.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+
+          <div class="timeline-content">
+            <h3>IT Operations Analyst</h3>
+            <p class="company">Trasna</p>
+            <p class="date">Oct 2019 – Jan 2020</p>
+
+            <ul>
+              <li>Supported enterprise network infrastructure, monitoring, troubleshooting, and system availability.</li>
+              <li>Assisted with routers, switches, firewall rules, connectivity issues, and operational documentation.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section reveal">
+      <div class="section-title">
+        <p>Education</p>
+        <h2>Academic background</h2>
+      </div>
+
+      <div class="education-grid">
+        <div class="education-card">
+          <h3>Master of Science in Computer Science</h3>
+          <p>Lakehead University, Canada</p>
+          <span>GPA: 4.0</span>
+        </div>
+
+        <div class="education-card">
+          <h3>Bachelor of Computer Applications</h3>
+          <p>Amity University, India</p>
+          <span>GPA: 3.7</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact-section reveal">
+      <div class="contact-card">
+        <p class="eyebrow">Let’s Connect</p>
+
+        <h2>Interested in working together?</h2>
+
+        <p>
+          I am open to Python Developer, Backend Developer, Automation Engineer,
+          Cloud Engineer, DevOps, and Infrastructure Automation roles.
+        </p>
+
+        <div class="contact-links">
+          <a href="mailto:sourabhchauhan2810@gmail.com">Email Me</a>
+          <a href="http://linkedin.com/in/sourabhchauhan28" target="_blank">LinkedIn</a>
+          <a href="https://github.com/sourabh7838" target="_blank">GitHub</a>
+          <a href="Sourabh_Chauhan_Resume.pdf" target="_blank">Resume</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© <span id="year"></span> Sourabh Chauhan. Built with HTML, CSS and GitHub Pages.</p>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+
+    const revealElements = document.querySelectorAll(".reveal");
+
+    const observer = new IntersectionObserver(
+      entries => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add("active");
+          }
+        });
+      },
+      {
+        threshold: 0.15
+      }
+    );
+
+    revealElements.forEach(element => {
+      observer.observe(element);
+    });
+  </script>
 </body>
 </html>
